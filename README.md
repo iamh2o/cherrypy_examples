@@ -12,7 +12,7 @@ Quick solution to get google oauth2 authentication working with cherrypy. The sc
 * I set up the following conda env: `conda create -n CPGOA2 -c conda-forge cherrypy cherrypy==18.8.0 google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2`.
 * Activate it: `conda activate CPGOA2`.
 * run the server: `python goauth2_cpy.py . `. You'll see output blocking stdout like:
-    ```text
+```text
  python goauth2_cpy.py .
 [14/Dec/2023:04:52:31] ENGINE Listening for SIGTERM.
 [14/Dec/2023:04:52:31] ENGINE Listening for SIGHUP.
@@ -25,6 +25,7 @@ The Application mounted at '' has an empty config.
 [14/Dec/2023:04:52:31] ENGINE Serving on https://0.0.0.0:8912
 [14/Dec/2023:04:52:31] ENGINE Bus STARTED* 
 ```
+
 * Visit the URL `https://localhost:8912`.
   * Depending on how you've created your certs, you may be blocked here or warned about the security of the site.  You can either add an exception or create your own CA and sign your own certs.  
 
