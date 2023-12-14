@@ -1,0 +1,6 @@
+cherrypy==18.8.0
+pytest
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
