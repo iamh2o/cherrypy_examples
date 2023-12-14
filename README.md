@@ -12,8 +12,10 @@ Quick solution to get google oauth2 authentication working with cherrypy. The sc
 * I set up the following conda env: `conda create -n CPGOA2 -c conda-forge cherrypy cherrypy==18.8.0 google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2`.
 * Activate it: `conda activate CPGOA2`.
 * run the server: `python goauth2_cpy.py . `. You'll see output blocking stdout like:
+  
 ```text
- python goauth2_cpy.py .
+python goauth2_cpy.py .
+
 [14/Dec/2023:04:52:31] ENGINE Listening for SIGTERM.
 [14/Dec/2023:04:52:31] ENGINE Listening for SIGHUP.
 [14/Dec/2023:04:52:31] ENGINE Listening for SIGUSR1.
@@ -32,4 +34,7 @@ The Application mounted at '' has an empty config.
 * You'll be prompted for a google login.  Depending on how you've setup your google app, users from outside your organization may not be able to login.  You can add users to your app, or create a new app for public use.
 
 ## Cherrypy Running [Cytoscape](https://cytoscape.org/) W/Jinja2 Templates
-* ... see [Bloom Lims -soon-](...)
+
+<img src="http://flux.glass/format_gh_text?txt=in+BLOOM+Lims+%3A+coming+soon.&bg_color=%23dafbe4&txt_color=%23f906cc&font=Dosis-Regular&font_size=22&width=288&ret_type=img" />
+
+
